@@ -323,7 +323,7 @@ PrefabInstance:
     - target: {fileID: 4797331275588949005, guid: 8ef7305463c10884e834ff46941e1232,
         type: 3}
       propertyPath: m_Text
-      value: W piekarni go nie ma...
+      value: "Tylko kaczki.\nJakby Felek tu by\u0142 to by je pogoni\u0142. "
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ef7305463c10884e834ff46941e1232, type: 3}
@@ -557,7 +557,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: d7616f0c18556014f85d00bd37e512b1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 393329fef99792a4e84ac463756d0fec, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
