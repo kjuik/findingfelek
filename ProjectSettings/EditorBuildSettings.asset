@@ -9,15 +9,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Intro.unity
     guid: c6e5516727c565c4388dafccdb89e8a9
   - enabled: 1
-    path: Assets/Scenes/Map.unity
+    path: Assets/Scenes/Puszczykowo/MapPuszczykowo.unity
     guid: 01ad3b648bc4420438c15653784552f4
   - enabled: 1
-    path: Assets/Scenes/Bakery.unity
+    path: Assets/Scenes/Puszczykowo/Bakery.unity
     guid: 2ab06b3311c55304cb695cf48a84f933
   - enabled: 1
-    path: Assets/Scenes/Lake.unity
+    path: Assets/Scenes/Puszczykowo/Lake.unity
     guid: 8181716bb10001b4c961eeae4c50b33b
   - enabled: 1
-    path: Assets/Scenes/AtAnnes.unity
+    path: Assets/Scenes/Puszczykowo/AtAnnes.unity
     guid: ad6a1ead9fbc0564587bc757c3ae2362
+  - enabled: 1
+    path: Assets/Scenes/Poznan/MapPoznan.unity
+    guid: e05323dabc547f1469e772e0f7b0b427
   m_configObjects: {}

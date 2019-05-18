@@ -1,16 +1,18 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
 using Zenject;
 
 public class ActivateWhenSceneVisited : MonoBehaviour
 {
-    public string sceneName;
+    public List<string> sceneNames;
 
     [Inject]
     public ExplorationState ExplorationState { set; private get; }
 
     private void OnEnable()
     {
-        if (!ExplorationState.HasVisitedScene(sceneName))
+        if (sceneNames.Any(scene => !ExplorationState.HasVisitedScene(scene)))
             gameObject.SetActive(false);
     }
 }
