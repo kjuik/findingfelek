@@ -65,4 +65,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/World/Paris.unity
     guid: a6dcaca3f1d06c149bc326aab30ed32c
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: f0465db8e28569e4eb478e0c5e5cf2e4
   m_configObjects: {}

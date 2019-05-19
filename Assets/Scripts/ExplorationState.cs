@@ -6,7 +6,12 @@ public class ExplorationState
 
     readonly HashSet<string> VisitedScenes = new HashSet<string>();
 
-    public void OnLoadScene(string scene) => VisitedScenes.Add(scene);
+    public void OnLoadScene(string scene) => 
+        VisitedScenes.Add(scene);
 
-    public bool HasVisitedScene(string sceneName) => VisitedScenes.Contains(sceneName);
+    public void OnReset() => 
+        VisitedScenes.Clear();
+
+    public bool HasVisitedScene(string sceneName) => 
+        VisitedScenes.Contains(sceneName);
 }
