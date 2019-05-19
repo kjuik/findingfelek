@@ -23,4 +23,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Poznan/MapPoznan.unity
     guid: e05323dabc547f1469e772e0f7b0b427
+  - enabled: 1
+    path: Assets/Scenes/Poznan/Osinowa.unity
+    guid: 3d16e4ebd577a2c4aa234ae7323bc534
+  - enabled: 1
+    path: Assets/Scenes/Poznan/Tutu.unity
+    guid: 3423e1d5e2cc4bf4889929c3ac3e5a37
+  - enabled: 1
+    path: Assets/Scenes/Poznan/Loft.unity
+    guid: f6e3f7e6d4d180f47911ed836b530663
+  - enabled: 1
+    path: Assets/Scenes/Poznan/CityHall.unity
+    guid: 2d891b1c87064764b9d3bd32d33e33f4
   m_configObjects: {}
