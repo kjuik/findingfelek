@@ -127,6 +127,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 960977571}
     m_Modifications:
+    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
+        type: 3}
+      propertyPath: sceneName
+      value: Lake
+      objectReference: {fileID: 0}
     - target: {fileID: 2882685624067107693, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
       propertyPath: m_Name
@@ -650,6 +655,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 960977571}
     m_Modifications:
+    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
+        type: 3}
+      propertyPath: sceneName
+      value: AtAnnes
+      objectReference: {fileID: 0}
     - target: {fileID: 2882685624067107693, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
       propertyPath: m_Name
@@ -923,6 +933,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 960977571}
     m_Modifications:
+    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
+        type: 3}
+      propertyPath: sceneName
+      value: Bakery
+      objectReference: {fileID: 0}
     - target: {fileID: 2882685624067107693, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
       propertyPath: m_Name
@@ -1101,12 +1116,12 @@ PrefabInstance:
     - target: {fileID: 7710742550311020283, guid: c955185e1bc2e12418c9c7d64e0c506b,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 29.2
+      value: 29.199997
       objectReference: {fileID: 0}
     - target: {fileID: 7710742550311020283, guid: c955185e1bc2e12418c9c7d64e0c506b,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 12.8
+      value: 12.799988
       objectReference: {fileID: 0}
     - target: {fileID: 7710742550311020283, guid: c955185e1bc2e12418c9c7d64e0c506b,
         type: 3}

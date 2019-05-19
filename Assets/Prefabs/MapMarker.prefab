@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2882685624067107680}
   - component: {fileID: 2882685624067107695}
   - component: {fileID: 2882685624067107682}
+  - component: {fileID: -4193939649818833444}
   m_Layer: 5
   m_Name: MapMarker
   m_TagString: Untagged
@@ -105,7 +106,7 @@ MonoBehaviour:
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 21300000, guid: 833e5ea42249ed94e9d6bce0c99e4bc4, type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: ff59f9ca6aa64604dbc07f29374089b9, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -145,3 +146,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneName: 
+--- !u!114 &-4193939649818833444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2882685624067107693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cdbd3add9082be43ac53a42e54ae44c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: 
+  sprite: {fileID: 21300000, guid: 833e5ea42249ed94e9d6bce0c99e4bc4, type: 3}

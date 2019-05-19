@@ -127,6 +127,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 960977571}
     m_Modifications:
+    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
+        type: 3}
+      propertyPath: sceneName
+      value: Osinowa
+      objectReference: {fileID: 0}
     - target: {fileID: 2882685624067107693, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
       propertyPath: m_Name
@@ -470,6 +475,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 960977571}
     m_Modifications:
+    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
+        type: 3}
+      propertyPath: sceneName
+      value: MapPuszczykowo
+      objectReference: {fileID: 0}
     - target: {fileID: 2882685624067107693, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
       propertyPath: m_Name
@@ -585,12 +595,6 @@ PrefabInstance:
       propertyPath: SceneName
       value: MapPuszczykowo
       objectReference: {fileID: 0}
-    - target: {fileID: 2882685624067107680, guid: 280327699edaf0e40bbb9724df3a80a9,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 25589390af8f4074a9cbbf2c0bb178ef,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 280327699edaf0e40bbb9724df3a80a9, type: 3}
 --- !u!224 &691551226 stripped
@@ -910,6 +914,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 960977571}
     m_Modifications:
+    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
+        type: 3}
+      propertyPath: sceneName
+      value: Tutu
+      objectReference: {fileID: 0}
     - target: {fileID: 2882685624067107693, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
       propertyPath: m_Name
@@ -1313,6 +1322,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 960977571}
     m_Modifications:
+    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
+        type: 3}
+      propertyPath: sceneName
+      value: CityHall
+      objectReference: {fileID: 0}
     - target: {fileID: 2882685624067107693, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
       propertyPath: m_Name
@@ -1443,6 +1457,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 960977571}
     m_Modifications:
+    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
+        type: 3}
+      propertyPath: sceneName
+      value: Loft
+      objectReference: {fileID: 0}
     - target: {fileID: 2882685624067107693, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
       propertyPath: m_Name
