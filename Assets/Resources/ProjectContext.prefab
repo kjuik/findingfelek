@@ -73,3 +73,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03ba6b0bf1d7bee4baee91019acb5867, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fadeInOutPrefab: {fileID: 4903991510992693693, guid: c5ead27358849874a8829e15b7c1b9c7,
+    type: 3}
