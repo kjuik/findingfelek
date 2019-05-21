@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Puszczykowo/Lake.unity
     guid: 8181716bb10001b4c961eeae4c50b33b
   - enabled: 1
+    path: Assets/Scenes/Puszczykowo/Balcony.unity
+    guid: 316b9ee42fab4034292799f3be7e0f1d
+  - enabled: 1
     path: Assets/Scenes/Puszczykowo/AtAnnes.unity
     guid: ad6a1ead9fbc0564587bc757c3ae2362
   - enabled: 1
