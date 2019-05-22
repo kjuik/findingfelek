@@ -22,7 +22,7 @@ public class Fade : MonoBehaviour
         StartCoroutine(Run(0f, 1f, onFinished: onFinished));
     }
 
-    private IEnumerator Run(float from, float to, float duration = 1f, Action onFinished = null)
+    private IEnumerator Run(float from, float to, float duration = .25f, Action onFinished = null)
     {
         var startTimestamp = Time.time;
         while (Time.time - startTimestamp < duration)
