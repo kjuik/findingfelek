@@ -323,7 +323,7 @@ PrefabInstance:
     - target: {fileID: 4797331275588949005, guid: 8ef7305463c10884e834ff46941e1232,
         type: 3}
       propertyPath: m_Text
-      value: "Tu te\u017C nie wyciska..."
+      value: "A mo\u017Ce biega na bie\u017Cni w Lofcie?\nNie, wszystkie puste..."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ef7305463c10884e834ff46941e1232, type: 3}

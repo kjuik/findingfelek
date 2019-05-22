@@ -210,15 +210,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 960977571}
     m_Modifications:
-    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
-        type: 3}
-      propertyPath: sceneName
-      value: MapPoznan
-      objectReference: {fileID: 0}
     - target: {fileID: 2882685624067107693, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
       propertyPath: m_Name
       value: BackToPoznan
+      objectReference: {fileID: 0}
+    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
+        type: 3}
+      propertyPath: sceneName
+      value: MapPoznan
       objectReference: {fileID: 0}
     - target: {fileID: 2882685624067107694, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
@@ -515,15 +515,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 960977571}
     m_Modifications:
-    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
-        type: 3}
-      propertyPath: sceneName
-      value: 5Lakes
-      objectReference: {fileID: 0}
     - target: {fileID: 2882685624067107693, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
       propertyPath: m_Name
       value: 5LakesMarker
+      objectReference: {fileID: 0}
+    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
+        type: 3}
+      propertyPath: sceneName
+      value: 5Lakes
       objectReference: {fileID: 0}
     - target: {fileID: 2882685624067107694, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
@@ -793,15 +793,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 960977571}
     m_Modifications:
-    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
-        type: 3}
-      propertyPath: sceneName
-      value: Miedzylesie
-      objectReference: {fileID: 0}
     - target: {fileID: 2882685624067107693, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
       propertyPath: m_Name
       value: MiedzylesieMarker
+      objectReference: {fileID: 0}
+    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
+        type: 3}
+      propertyPath: sceneName
+      value: Miedzylesie
       objectReference: {fileID: 0}
     - target: {fileID: 2882685624067107694, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
@@ -928,15 +928,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 960977571}
     m_Modifications:
-    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
-        type: 3}
-      propertyPath: sceneName
-      value: Warsaw
-      objectReference: {fileID: 0}
     - target: {fileID: 2882685624067107693, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
       propertyPath: m_Name
       value: WarsawMarker
+      objectReference: {fileID: 0}
+    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
+        type: 3}
+      propertyPath: sceneName
+      value: Warsaw
       objectReference: {fileID: 0}
     - target: {fileID: 2882685624067107694, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
@@ -1088,6 +1088,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 960977571}
     m_Modifications:
+    - target: {fileID: 1405445205801069633, guid: c955185e1bc2e12418c9c7d64e0c506b,
+        type: 3}
+      propertyPath: milestoneName
+      value: Plane
+      objectReference: {fileID: 0}
     - target: {fileID: 7710742550311020280, guid: c955185e1bc2e12418c9c7d64e0c506b,
         type: 3}
       propertyPath: m_Name
@@ -1168,6 +1173,12 @@ PrefabInstance:
       propertyPath: m_AnchorMax.x
       value: 0.59875005
       objectReference: {fileID: 0}
+    - target: {fileID: 7710742550311020277, guid: c955185e1bc2e12418c9c7d64e0c506b,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0701fb3f46dd0b14eae8b1e0a64d39d1,
+        type: 3}
     - target: {fileID: 7710742550311020282, guid: c955185e1bc2e12418c9c7d64e0c506b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1178,12 +1189,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Load
       objectReference: {fileID: 0}
-    - target: {fileID: 7710742550311020277, guid: c955185e1bc2e12418c9c7d64e0c506b,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 0701fb3f46dd0b14eae8b1e0a64d39d1,
-        type: 3}
     - target: {fileID: 4828795800343678354, guid: c955185e1bc2e12418c9c7d64e0c506b,
         type: 3}
       propertyPath: sceneNames.Array.size

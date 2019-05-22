@@ -342,22 +342,22 @@ PrefabInstance:
     - target: {fileID: 4553878828379390151, guid: 8ef7305463c10884e834ff46941e1232,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.8999939
+      value: 21.399994
       objectReference: {fileID: 0}
     - target: {fileID: 4553878828379390151, guid: 8ef7305463c10884e834ff46941e1232,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1
+      value: -12.900024
       objectReference: {fileID: 0}
     - target: {fileID: 4553878828379390151, guid: 8ef7305463c10884e834ff46941e1232,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: -1.8999939
+      value: 42.6
       objectReference: {fileID: 0}
     - target: {fileID: 4553878828379390151, guid: 8ef7305463c10884e834ff46941e1232,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: -2
+      value: -29.8
       objectReference: {fileID: 0}
     - target: {fileID: 4553878828379390151, guid: 8ef7305463c10884e834ff46941e1232,
         type: 3}
@@ -392,9 +392,8 @@ PrefabInstance:
     - target: {fileID: 4797331275588949005, guid: 8ef7305463c10884e834ff46941e1232,
         type: 3}
       propertyPath: m_Text
-      value: 'Wszystkie alejki przeszukane...
-
-        Tu go nie ma.'
+      value: "- Micha\u0142, nie widzia\u0142e\u015B tu Felusia?\n- A wiesz, nie zwraca\u0142em
+        uwagi, gra\u0142em w g\u0142upie gry..."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ef7305463c10884e834ff46941e1232, type: 3}
@@ -628,7 +627,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 751976c1244e8a54cb617b54d5c7ec0f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 30dc1b880fab320418b22ead52846432, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1

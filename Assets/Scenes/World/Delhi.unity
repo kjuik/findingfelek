@@ -323,7 +323,7 @@ PrefabInstance:
     - target: {fileID: 4797331275588949005, guid: 8ef7305463c10884e834ff46941e1232,
         type: 3}
       propertyPath: m_Text
-      value: "- Przepraszam, czy widzia\u0142 pan Felka?\n\n- \u0928\u0939\u0940\u0902,
+      value: "- Przepraszam, widzia\u0142a pani Felka?\n\n- \u0928\u0939\u0940\u0902,
         \u092E\u0948\u0902\u0928\u0947 \u0909\u0938\u0947 \u0928\u0939\u0940\u0902
         \u0926\u0947\u0916\u093E \u0939..."
       objectReference: {fileID: 0}

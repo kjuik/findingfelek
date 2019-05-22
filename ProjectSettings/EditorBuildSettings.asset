@@ -72,6 +72,12 @@ EditorBuildSettings:
     path: Assets/Scenes/World/Morocco.unity
     guid: c520de81beb233346a1e01c490e76b34
   - enabled: 1
+    path: Assets/Scenes/World/MontBlanc.unity
+    guid: c4bc4c8e33ce15148b93bd7d221cb32c
+  - enabled: 1
+    path: Assets/Scenes/World/Zanskar.unity
+    guid: dfa37659a756ee24188eb821a42505fd
+  - enabled: 1
     path: Assets/Scenes/World/Paris.unity
     guid: a6dcaca3f1d06c149bc326aab30ed32c
   - enabled: 1
