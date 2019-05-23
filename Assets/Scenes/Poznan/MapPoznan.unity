@@ -132,11 +132,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: OsinowaMarker
       objectReference: {fileID: 0}
-    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
-        type: 3}
-      propertyPath: sceneName
-      value: Osinowa
-      objectReference: {fileID: 0}
     - target: {fileID: 2882685624067107694, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -245,6 +240,11 @@ PrefabInstance:
     - target: {fileID: 2882685624067107682, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
       propertyPath: SceneName
+      value: Osinowa
+      objectReference: {fileID: 0}
+    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
+        type: 3}
+      propertyPath: sceneName
       value: Osinowa
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -510,11 +510,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BackToPuszczykowo
       objectReference: {fileID: 0}
-    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
-        type: 3}
-      propertyPath: sceneName
-      value: MapPuszczykowo
-      objectReference: {fileID: 0}
     - target: {fileID: 2882685624067107694, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -623,6 +618,11 @@ PrefabInstance:
     - target: {fileID: 2882685624067107682, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
       propertyPath: SceneName
+      value: MapPuszczykowo
+      objectReference: {fileID: 0}
+    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
+        type: 3}
+      propertyPath: sceneName
       value: MapPuszczykowo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -750,11 +750,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 1207652195157037355, guid: 8ef7305463c10884e834ff46941e1232,
-        type: 3}
-      propertyPath: m_CullTransparentMesh
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4797331275588949005, guid: 8ef7305463c10884e834ff46941e1232,
         type: 3}
       propertyPath: m_Text
@@ -779,6 +774,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1207652195157037355, guid: 8ef7305463c10884e834ff46941e1232,
+        type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ef7305463c10884e834ff46941e1232, type: 3}
@@ -974,11 +974,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: TutuMarker
       objectReference: {fileID: 0}
-    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
-        type: 3}
-      propertyPath: sceneName
-      value: Tutu
-      objectReference: {fileID: 0}
     - target: {fileID: 2882685624067107694, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1087,6 +1082,11 @@ PrefabInstance:
     - target: {fileID: 2882685624067107682, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
       propertyPath: SceneName
+      value: Tutu
+      objectReference: {fileID: 0}
+    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
+        type: 3}
+      propertyPath: sceneName
       value: Tutu
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1357,11 +1357,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 1207652195157037355, guid: 8ef7305463c10884e834ff46941e1232,
-        type: 3}
-      propertyPath: m_CullTransparentMesh
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4797331275588949005, guid: 8ef7305463c10884e834ff46941e1232,
         type: 3}
       propertyPath: m_Text
@@ -1387,6 +1382,11 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1207652195157037355, guid: 8ef7305463c10884e834ff46941e1232,
+        type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ef7305463c10884e834ff46941e1232, type: 3}
 --- !u!224 &1784739752 stripped
@@ -1406,11 +1406,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CityHallMarker
-      objectReference: {fileID: 0}
-    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
-        type: 3}
-      propertyPath: sceneName
-      value: CityHall
       objectReference: {fileID: 0}
     - target: {fileID: 2882685624067107694, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
@@ -1522,6 +1517,11 @@ PrefabInstance:
       propertyPath: SceneName
       value: CityHall
       objectReference: {fileID: 0}
+    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
+        type: 3}
+      propertyPath: sceneName
+      value: CityHall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 280327699edaf0e40bbb9724df3a80a9, type: 3}
 --- !u!224 &2040334122 stripped
@@ -1541,11 +1541,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LoftMarker
-      objectReference: {fileID: 0}
-    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
-        type: 3}
-      propertyPath: sceneName
-      value: Loft
       objectReference: {fileID: 0}
     - target: {fileID: 2882685624067107694, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
@@ -1657,6 +1652,11 @@ PrefabInstance:
       propertyPath: SceneName
       value: Loft
       objectReference: {fileID: 0}
+    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
+        type: 3}
+      propertyPath: sceneName
+      value: Loft
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 280327699edaf0e40bbb9724df3a80a9, type: 3}
 --- !u!224 &2133955490 stripped
@@ -1690,6 +1690,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneName: MapEurope
+--- !u!114 &2882685624181985361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2882685624181985359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f4f105e82a61f545ba0c510c6a592b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sfx: 2
 --- !u!1001 &4828795800768820919
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1777,17 +1790,17 @@ PrefabInstance:
       propertyPath: m_AnchorMax.x
       value: 0.44375002
       objectReference: {fileID: 0}
-    - target: {fileID: 1405445205801069633, guid: c955185e1bc2e12418c9c7d64e0c506b,
-        type: 3}
-      propertyPath: milestoneName
-      value: Train
-      objectReference: {fileID: 0}
     - target: {fileID: 7710742550311020277, guid: c955185e1bc2e12418c9c7d64e0c506b,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 220a393b21e43474e96a77834dc177ef,
         type: 3}
+    - target: {fileID: 7710742550311020282, guid: c955185e1bc2e12418c9c7d64e0c506b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7710742550311020282, guid: c955185e1bc2e12418c9c7d64e0c506b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1797,6 +1810,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Load
+      objectReference: {fileID: 0}
+    - target: {fileID: 7710742550311020282, guid: c955185e1bc2e12418c9c7d64e0c506b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7710742550311020282, guid: c955185e1bc2e12418c9c7d64e0c506b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7710742550311020282, guid: c955185e1bc2e12418c9c7d64e0c506b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2882685624181985361}
+    - target: {fileID: 7710742550311020282, guid: c955185e1bc2e12418c9c7d64e0c506b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 7710742550311020282, guid: c955185e1bc2e12418c9c7d64e0c506b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1405445205801069633, guid: c955185e1bc2e12418c9c7d64e0c506b,
+        type: 3}
+      propertyPath: milestoneName
+      value: Train
       objectReference: {fileID: 0}
     - target: {fileID: 4828795800343678354, guid: c955185e1bc2e12418c9c7d64e0c506b,
         type: 3}

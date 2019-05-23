@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2826172543674612411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2826172543674612388}
+  - component: {fileID: 2826172543674612389}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2826172543674612388
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2826172543674612411}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 261.27338, y: 431.56454, z: -1253.9435}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2826172543674612389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2826172543674612411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2e357bbe1844f40aa77fa6ecfa13a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sfxAudios:
+  - key: 0
+    clips:
+    - {fileID: 8300000, guid: 30e9d30e6de82cd438760e4f0c513ac7, type: 3}
+    - {fileID: 8300000, guid: 24b0711a0b44aef409b6f99c9d5abedb, type: 3}
+    - {fileID: 8300000, guid: 770e44a96477d9c4abe67ba02acfc2a7, type: 3}
+    - {fileID: 8300000, guid: a553b49e83b746d4f9c3103a18bf3998, type: 3}
+    - {fileID: 8300000, guid: c8c63b7cb6a273c44b82f9f8ca425797, type: 3}
+    - {fileID: 8300000, guid: b63ba38c4639352489d5268617e1ff38, type: 3}
+    - {fileID: 8300000, guid: 5e9d712228f02c440ac4d82e6d8dcd77, type: 3}
+  - key: 1
+    clips:
+    - {fileID: 8300000, guid: 7f0744f01e71e4147b4de303ca83a19a, type: 3}
+  - key: 2
+    clips:
+    - {fileID: 8300000, guid: bc592e1177c1d054f995acf2308c13a0, type: 3}
+  - key: 3
+    clips:
+    - {fileID: 8300000, guid: 064861ec37eb27140b57faf9a5261307, type: 3}
+  loopAudios:
+  - key: 0
+    clip: {fileID: 8300000, guid: 27fcd82bc1d1db640b6c622eddc6f6b7, type: 3}
+  - key: 1
+    clip: {fileID: 8300000, guid: ff95f4c0e5c3fdf4bb119c51a3379272, type: 3}
+  sfxGroup: {fileID: -222162487893472941, guid: 31d1ad376eb93c440a4e4cd077a65ef3,
+    type: 2}
+  loopGroup: {fileID: -1459673697876625837, guid: 31d1ad376eb93c440a4e4cd077a65ef3,
+    type: 2}
+  audioSourcePrefab: {fileID: 1710612712891267994, guid: ce180487d78a77846b961bd30c87cbfc,
+    type: 3}

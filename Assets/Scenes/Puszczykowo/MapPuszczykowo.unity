@@ -132,11 +132,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: LakeMarker
       objectReference: {fileID: 0}
-    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
-        type: 3}
-      propertyPath: sceneName
-      value: Lake
-      objectReference: {fileID: 0}
     - target: {fileID: 2882685624067107694, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -247,6 +242,11 @@ PrefabInstance:
       propertyPath: SceneName
       value: Lake
       objectReference: {fileID: 0}
+    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
+        type: 3}
+      propertyPath: sceneName
+      value: Lake
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 280327699edaf0e40bbb9724df3a80a9, type: 3}
 --- !u!224 &120770431 stripped
@@ -349,11 +349,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PojnikiMarker
-      objectReference: {fileID: 0}
-    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
-        type: 3}
-      propertyPath: sceneName
-      value: Pojniki
       objectReference: {fileID: 0}
     - target: {fileID: 2882685624067107694, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
@@ -463,6 +458,11 @@ PrefabInstance:
     - target: {fileID: 2882685624067107682, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
       propertyPath: SceneName
+      value: Pojniki
+      objectReference: {fileID: 0}
+    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
+        type: 3}
+      propertyPath: sceneName
       value: Pojniki
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -657,11 +657,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BalconyMarker
       objectReference: {fileID: 0}
-    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
-        type: 3}
-      propertyPath: sceneName
-      value: Balcony
-      objectReference: {fileID: 0}
     - target: {fileID: 2882685624067107694, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -772,6 +767,11 @@ PrefabInstance:
       propertyPath: SceneName
       value: Balcony
       objectReference: {fileID: 0}
+    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
+        type: 3}
+      propertyPath: sceneName
+      value: Balcony
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 280327699edaf0e40bbb9724df3a80a9, type: 3}
 --- !u!224 &1440892384 stripped
@@ -791,11 +791,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DuchessMarker
-      objectReference: {fileID: 0}
-    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
-        type: 3}
-      propertyPath: sceneName
-      value: Duchess
       objectReference: {fileID: 0}
     - target: {fileID: 2882685624067107694, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
@@ -907,6 +902,11 @@ PrefabInstance:
       propertyPath: SceneName
       value: Duchess
       objectReference: {fileID: 0}
+    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
+        type: 3}
+      propertyPath: sceneName
+      value: Duchess
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 280327699edaf0e40bbb9724df3a80a9, type: 3}
 --- !u!224 &1508583648 stripped
@@ -926,11 +926,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AtAnnesMarker
-      objectReference: {fileID: 0}
-    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
-        type: 3}
-      propertyPath: sceneName
-      value: AtAnnes
       objectReference: {fileID: 0}
     - target: {fileID: 2882685624067107694, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
@@ -1040,6 +1035,11 @@ PrefabInstance:
     - target: {fileID: 2882685624067107682, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
       propertyPath: SceneName
+      value: AtAnnes
+      objectReference: {fileID: 0}
+    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
+        type: 3}
+      propertyPath: sceneName
       value: AtAnnes
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1205,11 +1205,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BakeryMarker
       objectReference: {fileID: 0}
-    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
-        type: 3}
-      propertyPath: sceneName
-      value: Bakery
-      objectReference: {fileID: 0}
     - target: {fileID: 2882685624067107694, guid: 280327699edaf0e40bbb9724df3a80a9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1320,6 +1315,11 @@ PrefabInstance:
       propertyPath: SceneName
       value: Bakery
       objectReference: {fileID: 0}
+    - target: {fileID: -4193939649818833444, guid: 280327699edaf0e40bbb9724df3a80a9,
+        type: 3}
+      propertyPath: sceneName
+      value: Bakery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 280327699edaf0e40bbb9724df3a80a9, type: 3}
 --- !u!224 &2133955490 stripped
@@ -1353,6 +1353,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneName: MapPoznan
+--- !u!114 &2882685624181985361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2882685624181985359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f4f105e82a61f545ba0c510c6a592b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sfx: 1
 --- !u!1001 &4828795800768820919
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1360,6 +1373,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 960977571}
     m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: sceneNames.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: sceneNames.Array.data[3]
+      value: Balcony
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: sceneNames.Array.data[4]
+      value: Duchess
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: sceneNames.Array.data[5]
+      value: Pojniki
+      objectReference: {fileID: 0}
     - target: {fileID: 7710742550311020280, guid: c955185e1bc2e12418c9c7d64e0c506b,
         type: 3}
       propertyPath: m_Name
@@ -1473,6 +1502,11 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 7710742550311020282, guid: c955185e1bc2e12418c9c7d64e0c506b,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7710742550311020282, guid: c955185e1bc2e12418c9c7d64e0c506b,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2882685624181985360}
@@ -1481,21 +1515,30 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Load
       objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: sceneNames.Array.size
-      value: 6
+    - target: {fileID: 7710742550311020282, guid: c955185e1bc2e12418c9c7d64e0c506b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: sceneNames.Array.data[3]
-      value: Balcony
+    - target: {fileID: 7710742550311020282, guid: c955185e1bc2e12418c9c7d64e0c506b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: sceneNames.Array.data[4]
-      value: Duchess
+    - target: {fileID: 7710742550311020282, guid: c955185e1bc2e12418c9c7d64e0c506b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2882685624181985361}
+    - target: {fileID: 7710742550311020282, guid: c955185e1bc2e12418c9c7d64e0c506b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Play
       objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: sceneNames.Array.data[5]
-      value: Pojniki
+    - target: {fileID: 7710742550311020282, guid: c955185e1bc2e12418c9c7d64e0c506b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c955185e1bc2e12418c9c7d64e0c506b, type: 3}

@@ -75,3 +75,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeInOutPrefab: {fileID: 4903991510992693693, guid: c5ead27358849874a8829e15b7c1b9c7,
     type: 3}
+  audioManagerPrefab: {fileID: 2826172543674612389, guid: ef09ea877448376418146327173b182a,
+    type: 3}
