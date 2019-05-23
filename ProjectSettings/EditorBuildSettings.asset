@@ -45,20 +45,26 @@ EditorBuildSettings:
     path: Assets/Scenes/Poznan/CityHall.unity
     guid: 2d891b1c87064764b9d3bd32d33e33f4
   - enabled: 1
-    path: Assets/Scenes/Poland/5Lakes.unity
+    path: Assets/Scenes/Europe/Barcelona.unity
     guid: 29eea60f636c1f846bf92c01cb67492b
   - enabled: 1
-    path: Assets/Scenes/Poland/MapPoland.unity
+    path: Assets/Scenes/Europe/MapEurope.unity
     guid: 780ab5e78ad20e849acf89f9f3b5efb4
   - enabled: 1
-    path: Assets/Scenes/Poland/Miedzylesie.unity
+    path: Assets/Scenes/Europe/Miedzylesie.unity
     guid: b6817718e8b317f498b6f6057efa87f7
   - enabled: 1
-    path: Assets/Scenes/Poland/Warsaw.unity
-    guid: 587a2756e37757844990aa778028d319
-  - enabled: 1
-    path: Assets/Scenes/World/Berlin.unity
+    path: Assets/Scenes/Europe/Berlin.unity
     guid: 043b9d3301de07d4487134610098787f
+  - enabled: 1
+    path: Assets/Scenes/Europe/Pirenneis.unity
+    guid: 5fe72f91de968044084a45181520454c
+  - enabled: 1
+    path: Assets/Scenes/Europe/MontBlanc.unity
+    guid: c4bc4c8e33ce15148b93bd7d221cb32c
+  - enabled: 1
+    path: Assets/Scenes/Europe/Paris.unity
+    guid: a6dcaca3f1d06c149bc326aab30ed32c
   - enabled: 1
     path: Assets/Scenes/World/Delhi.unity
     guid: 3fa5ef089a6a58046acdc6d6038ebf7a
@@ -72,14 +78,11 @@ EditorBuildSettings:
     path: Assets/Scenes/World/Morocco.unity
     guid: c520de81beb233346a1e01c490e76b34
   - enabled: 1
-    path: Assets/Scenes/World/MontBlanc.unity
-    guid: c4bc4c8e33ce15148b93bd7d221cb32c
-  - enabled: 1
     path: Assets/Scenes/World/Zanskar.unity
     guid: dfa37659a756ee24188eb821a42505fd
   - enabled: 1
-    path: Assets/Scenes/World/Paris.unity
-    guid: a6dcaca3f1d06c149bc326aab30ed32c
+    path: Assets/Scenes/World/Kenya.unity
+    guid: 0f4018fa853e06747b342c3faa6d68b4
   - enabled: 1
     path: Assets/Scenes/Ending.unity
     guid: f0465db8e28569e4eb478e0c5e5cf2e4

@@ -342,22 +342,22 @@ PrefabInstance:
     - target: {fileID: 4553878828379390151, guid: 8ef7305463c10884e834ff46941e1232,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.8999939
+      value: 21.399994
       objectReference: {fileID: 0}
     - target: {fileID: 4553878828379390151, guid: 8ef7305463c10884e834ff46941e1232,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1
+      value: -12.900024
       objectReference: {fileID: 0}
     - target: {fileID: 4553878828379390151, guid: 8ef7305463c10884e834ff46941e1232,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: -1.8999939
+      value: 42.6
       objectReference: {fileID: 0}
     - target: {fileID: 4553878828379390151, guid: 8ef7305463c10884e834ff46941e1232,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: -2
+      value: -29.8
       objectReference: {fileID: 0}
     - target: {fileID: 4553878828379390151, guid: 8ef7305463c10884e834ff46941e1232,
         type: 3}
@@ -392,7 +392,8 @@ PrefabInstance:
     - target: {fileID: 4797331275588949005, guid: 8ef7305463c10884e834ff46941e1232,
         type: 3}
       propertyPath: m_Text
-      value: "Do zamku nie wr\xF3ci\u0142..."
+      value: "- Micha\u0142, nie widzia\u0142e\u015B tu Felusia?\n- A wiesz, nie zwraca\u0142em
+        uwagi, gra\u0142em w g\u0142upie gry..."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ef7305463c10884e834ff46941e1232, type: 3}
@@ -604,7 +605,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1000, y: 0}
+  m_SizeDelta: {x: 900, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1555236932
 MonoBehaviour:
@@ -626,7 +627,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: b54660108d096614692ea9a0b5dea6c4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 30dc1b880fab320418b22ead52846432, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -768,7 +769,7 @@ PrefabInstance:
     - target: {fileID: 5368856750049868661, guid: ab90e806a808d9a48a91a871a8925b98,
         type: 3}
       propertyPath: SceneName
-      value: MapPoland
+      value: MapEurope
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab90e806a808d9a48a91a871a8925b98, type: 3}
