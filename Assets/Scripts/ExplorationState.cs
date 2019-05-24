@@ -6,6 +6,7 @@ public class ExplorationState
 
     readonly HashSet<string> VisitedScenes = new HashSet<string>();
     readonly HashSet<string> MilestonesReached = new HashSet<string>();
+    readonly HashSet<string> MilestonesAnimated = new HashSet<string>();
 
     public void OnLoadScene(string scene) => 
         VisitedScenes.Add(scene);
@@ -13,10 +14,14 @@ public class ExplorationState
     public void OnMilestoneReached(string milestone) =>
        MilestonesReached.Add(milestone);
 
+    public void OnMilestoneAnimated(string milestone) =>
+       MilestonesAnimated.Add(milestone);
+
     public void OnReset()
     {
-        MilestonesReached.Clear();
         VisitedScenes.Clear();
+        MilestonesReached.Clear();
+        MilestonesAnimated.Clear();
     }
 
     public bool HasVisitedScene(string sceneName) => 
@@ -24,4 +29,7 @@ public class ExplorationState
 
     public bool HasReachedMilestone(string milestone) =>
         MilestonesReached.Contains(milestone);
+
+    public bool HasAnimatedMilestone(string milestone) =>
+        MilestonesAnimated.Contains(milestone);
 }

@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using UnityEngine;
+﻿using UnityEngine;
 using Zenject;
 
 public class ActivateWhenMilestoneReached : MonoBehaviour
@@ -14,5 +12,10 @@ public class ActivateWhenMilestoneReached : MonoBehaviour
     {
         if (!ExplorationState.HasReachedMilestone(milestoneName))
             gameObject.SetActive(false);
+        else if (!ExplorationState.HasAnimatedMilestone(milestoneName))
+        {
+            gameObject.GetComponent<Animation>().Play();
+            ExplorationState.OnMilestoneAnimated(milestoneName);
+        }
     }
 }
