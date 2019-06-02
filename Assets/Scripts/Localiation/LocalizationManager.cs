@@ -10,7 +10,7 @@ public class LocalizationManager : MonoBehaviour
 
     readonly Dictionary<string, Dictionary<string, string>> Translations = new Dictionary<string, Dictionary<string, string>>();
 
-    string currentLanguage;
+    public string CurrentLanguage { get; private set; }
 
     private void Awake()
     {
@@ -43,8 +43,8 @@ public class LocalizationManager : MonoBehaviour
     }
 
     public void SetLanguage(string language) => 
-        currentLanguage = language;
+        CurrentLanguage = language;
 
     public string GetTranslation(string key) => 
-        Translations[key][currentLanguage];
+        Translations[key][CurrentLanguage];
 }

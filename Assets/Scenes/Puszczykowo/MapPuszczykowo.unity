@@ -571,6 +571,7 @@ RectTransform:
   - {fileID: 1508583648}
   - {fileID: 816491133}
   - {fileID: 2882685624181985356}
+  - {fileID: 4553878827519564247}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1328,6 +1329,134 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 2133955489}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &464554401588562979
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 960977571}
+    m_Modifications:
+    - target: {fileID: 1069045567210144723, guid: bb9ffb5c89f070d45ac0fedab1fc7917,
+        type: 3}
+      propertyPath: m_Name
+      value: GuidedTourLabel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125523134725887476, guid: bb9ffb5c89f070d45ac0fedab1fc7917,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125523134725887476, guid: bb9ffb5c89f070d45ac0fedab1fc7917,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125523134725887476, guid: bb9ffb5c89f070d45ac0fedab1fc7917,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125523134725887476, guid: bb9ffb5c89f070d45ac0fedab1fc7917,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125523134725887476, guid: bb9ffb5c89f070d45ac0fedab1fc7917,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125523134725887476, guid: bb9ffb5c89f070d45ac0fedab1fc7917,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125523134725887476, guid: bb9ffb5c89f070d45ac0fedab1fc7917,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125523134725887476, guid: bb9ffb5c89f070d45ac0fedab1fc7917,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125523134725887476, guid: bb9ffb5c89f070d45ac0fedab1fc7917,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125523134725887476, guid: bb9ffb5c89f070d45ac0fedab1fc7917,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125523134725887476, guid: bb9ffb5c89f070d45ac0fedab1fc7917,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125523134725887476, guid: bb9ffb5c89f070d45ac0fedab1fc7917,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 205
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125523134725887476, guid: bb9ffb5c89f070d45ac0fedab1fc7917,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -131.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125523134725887476, guid: bb9ffb5c89f070d45ac0fedab1fc7917,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 358
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125523134725887476, guid: bb9ffb5c89f070d45ac0fedab1fc7917,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 209.29999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125523134725887476, guid: bb9ffb5c89f070d45ac0fedab1fc7917,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125523134725887476, guid: bb9ffb5c89f070d45ac0fedab1fc7917,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125523134725887476, guid: bb9ffb5c89f070d45ac0fedab1fc7917,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125523134725887476, guid: bb9ffb5c89f070d45ac0fedab1fc7917,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125523134725887476, guid: bb9ffb5c89f070d45ac0fedab1fc7917,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125523134725887476, guid: bb9ffb5c89f070d45ac0fedab1fc7917,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4963501859896426814, guid: bb9ffb5c89f070d45ac0fedab1fc7917,
+        type: 3}
+      propertyPath: m_Text
+      value: "And so Felek, my mom's dog, ran away! He's a hound, so he often attempths
+        to do it once he smells game in the forest. It happens that my mom lives in
+        Puszczykowo - just next to such forest.\n\nAnd so this is where we start:
+        our hometown. \nThe locations on this map are everyday places that my mom
+        frequents with Felek."
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bb9ffb5c89f070d45ac0fedab1fc7917, type: 3}
 --- !u!224 &2882685624181985356 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7710742550311020283, guid: c955185e1bc2e12418c9c7d64e0c506b,
@@ -1366,6 +1495,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Sfx: 1
+--- !u!224 &4553878827519564247 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4125523134725887476, guid: bb9ffb5c89f070d45ac0fedab1fc7917,
+    type: 3}
+  m_PrefabInstance: {fileID: 464554401588562979}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4828795800768820919
 PrefabInstance:
   m_ObjectHideFlags: 0
