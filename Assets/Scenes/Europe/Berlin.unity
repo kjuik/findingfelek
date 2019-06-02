@@ -395,6 +395,11 @@ PrefabInstance:
       value: "- Micha\u0142, nie widzia\u0142e\u015B tu Felusia?\n- A wiesz, nie zwraca\u0142em
         uwagi, gra\u0142em w g\u0142upie gry..."
       objectReference: {fileID: 0}
+    - target: {fileID: 3806292100584522914, guid: 8ef7305463c10884e834ff46941e1232,
+        type: 3}
+      propertyPath: key
+      value: berlin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ef7305463c10884e834ff46941e1232, type: 3}
 --- !u!224 &641914656 stripped

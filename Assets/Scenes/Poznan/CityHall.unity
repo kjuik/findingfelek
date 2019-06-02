@@ -190,7 +190,7 @@ PrefabInstance:
     - target: {fileID: 4553878828379390151, guid: 8ef7305463c10884e834ff46941e1232,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.95002
+      value: 0.9500122
       objectReference: {fileID: 0}
     - target: {fileID: 4553878828379390151, guid: 8ef7305463c10884e834ff46941e1232,
         type: 3}
@@ -241,6 +241,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: "A tam to kto na g\xF3rze? \n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3806292100584522914, guid: 8ef7305463c10884e834ff46941e1232,
+        type: 3}
+      propertyPath: key
+      value: city_hall_1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ef7305463c10884e834ff46941e1232, type: 3}
@@ -408,17 +413,17 @@ PrefabInstance:
     - target: {fileID: 4553878828379390151, guid: 8ef7305463c10884e834ff46941e1232,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1
+      value: -32.7
       objectReference: {fileID: 0}
     - target: {fileID: 4553878828379390151, guid: 8ef7305463c10884e834ff46941e1232,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: -1.8999939
+      value: -1.9
       objectReference: {fileID: 0}
     - target: {fileID: 4553878828379390151, guid: 8ef7305463c10884e834ff46941e1232,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: -2
+      value: -69.3
       objectReference: {fileID: 0}
     - target: {fileID: 4553878828379390151, guid: 8ef7305463c10884e834ff46941e1232,
         type: 3}
@@ -453,7 +458,12 @@ PrefabInstance:
     - target: {fileID: 4797331275588949005, guid: 8ef7305463c10884e834ff46941e1232,
         type: 3}
       propertyPath: m_Text
-      value: "\n\nA nie, to kozio\u0142ki..."
+      value: "A nie, to kozio\u0142ki..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3806292100584522914, guid: 8ef7305463c10884e834ff46941e1232,
+        type: 3}
+      propertyPath: key
+      value: city_hall_2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ef7305463c10884e834ff46941e1232, type: 3}

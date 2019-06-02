@@ -325,6 +325,11 @@ PrefabInstance:
       propertyPath: m_Text
       value: "Matko, dobrze \u017Ce tu nie wlaz\u0142..."
       objectReference: {fileID: 0}
+    - target: {fileID: 3806292100584522914, guid: 8ef7305463c10884e834ff46941e1232,
+        type: 3}
+      propertyPath: key
+      value: tutu
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ef7305463c10884e834ff46941e1232, type: 3}
 --- !u!224 &641914656 stripped
@@ -340,11 +345,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 960977571}
     m_Modifications:
-    - target: {fileID: 6506159011828566400, guid: ca8e58e1cced07641801234081c51d1b,
-        type: 3}
-      propertyPath: Milestone
-      value: Train
-      objectReference: {fileID: 0}
     - target: {fileID: 5118998883363970154, guid: ca8e58e1cced07641801234081c51d1b,
         type: 3}
       propertyPath: m_Name
@@ -463,7 +463,17 @@ PrefabInstance:
     - target: {fileID: 8047695807428909562, guid: ca8e58e1cced07641801234081c51d1b,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.0099983215
+      value: 0.009994507
+      objectReference: {fileID: 0}
+    - target: {fileID: 3945140736991971742, guid: ca8e58e1cced07641801234081c51d1b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.009994507
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506159011828566400, guid: ca8e58e1cced07641801234081c51d1b,
+        type: 3}
+      propertyPath: Milestone
+      value: Train
       objectReference: {fileID: 0}
     - target: {fileID: 1790916701611376045, guid: ca8e58e1cced07641801234081c51d1b,
         type: 3}
@@ -475,6 +485,16 @@ PrefabInstance:
       propertyPath: m_Text
       value: "A przebiega\u0142.\nI wspomina\u0142 \u017Ce wybiera si\u0119 na wakacje
         poci\u0105giem."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334104185483787753, guid: ca8e58e1cced07641801234081c51d1b,
+        type: 3}
+      propertyPath: key
+      value: tutu_question
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503360631178977684, guid: ca8e58e1cced07641801234081c51d1b,
+        type: 3}
+      propertyPath: key
+      value: tutu_answer
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca8e58e1cced07641801234081c51d1b, type: 3}

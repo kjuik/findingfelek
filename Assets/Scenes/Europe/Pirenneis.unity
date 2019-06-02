@@ -394,6 +394,11 @@ PrefabInstance:
       propertyPath: m_Text
       value: "Felek?\n\nNie, to tylko ko\u0144 z Pirenej\xF3w..."
       objectReference: {fileID: 0}
+    - target: {fileID: 3806292100584522914, guid: 8ef7305463c10884e834ff46941e1232,
+        type: 3}
+      propertyPath: key
+      value: pirenneis
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ef7305463c10884e834ff46941e1232, type: 3}
 --- !u!224 &641914656 stripped

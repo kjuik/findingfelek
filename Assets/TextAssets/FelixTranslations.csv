@@ -1,15 +1,38 @@
 code;pl-pl;en-en
-main_title;Feluś zwiał;Felek's gone
-main_subtitle;Gra na podstawie prawdziwych wydarzeń;Game inspired by true events
+main_title;Feluś zwiał;Finding Felek
+main_subtitle;Gra na podstawie prawdziwych wydarzeń;Video game inspired by true events
 game_start_button;szukaj go!;search!
 search_on;szukaj dalej...;search on...
 bakery;- Widziała pani Felusia?^- Nie, właśnie dawno nie zaglądał...;- Excuse me miss, have you seen Felek?^- No, I was wondering myself, haven't seen him in a while...
 balcony_1;A może się ukrył na balkonie?;Perhaps he's hiding on the balcony?
-balcony_2;Też nie.^Tyko kuna.;Not here either.^Just a beech marten.
+balcony_2;Też nie.^Tyko kuna.;Not here either.^Only a beech marten.
 duchess;U hrabiny nie siedzi.^Byłoby widać, że podusił krokusy.;He's not at the duchess' house.^He would have left a trail in the crocuses.
-lake;Tu tylko kaczki.^Jakby Felek tu był to by je pogonił.;Only ducks here.^Felek would hunt them if he were here.
+lake;Tu tylko kaczki.^Jakby Felek tu był to by je pogonił.;Only ducks here.^Felek would chase them^if he were here.
 pojniki_1;Pojniki?;What's that, drinking from the wild ponds?
 pojniki_2;nie,^same dziki.;no,^it's only boars.
-at_annes;Wszyscy są, ale Felusia ani śladu...^Ale ten Jacek się wierci.;Everyone's here, but no sight of Felek...^What's gotten into Jacek? He can't sit calmly.
+at_annes;Wszyscy są, ale Felusia ani śladu...^Ale ten Jacek się wierci.;Everyone's here, but no sight of Felek...^What's gotten into Jacek? He can't sit still.
 at_annes_question;Jacek, widziałeś Felusia?;Jacek, have you seen Felek anywhere?
 at_annes_answer;No, widziałem jak leciał Studzienną w dół...;Yeah, I saw him running down Studzienna street...
+city_hall_1;A tam to kto na górze?;It's a plane!^It's a bird!^It's Felek!
+city_hall_2;A nie, to koziołki...;Nah,^it's the goats at the city hall clock.
+loft;A może biega na bieżni w Lofice?^Nie, wszystkie puste...;Perhaps he's running on a treadmill in Loft?^No, they're all empty...
+osinowa;U dziadka pod biurkiem się nie schował...;He's not hiding under grandpa's desk...
+tutu;Matko, dobrze że tu nie wlazł...;God, I hope he hansn't pounced in here...
+tutu_question;Ala, nie przebegł tędy Feluś?;Ala, did Felek pass through here?
+tutu_answer;A przebiegał.^I wspominał że wybiera się na wakacje pociągiem.;Yup! And he mentioned that he's going for a vacation by train.
+barcelona;A w Barcelonie?^^Nie, tu tylko architektura, Desigual, tapasy i ruchy separatystyczne.^^Żadnych Felków.;Maybe in Barcelona?^^No, only architecture, Desigual shops, tapas and separatist movements here.^^No Feleks.
+berlin;- Michał, nie widziałeś tu Felusia?^-A wiesz, nie zwracałem uwagi, grałem w glupie gry...;- Mike, have you seen Felek here?^-Erm... sorry, I wasn't paying attention. I was playing those dumb games...
+miedzylesie;Do zamku nie wrócił...;He hasn't returned to the castle...
+pirenneis;Felek?^^Nie, to tylko koń z Pirenejów...;Felek?^^No, it's just a Pyreneean horse...
+paris;Felek jest wykształcony, ale do d'Orsay nie poszedł...;Felek is well educated, but he wouldn't be visiting d'Orsay...
+paris_question;Zośka,^Felek uciekł!;Zośka,^Felek ran away!
+paris_answer;No, wiem, wsiadał gdzieś do samolotu na DeGaulle'u...;Duh, I know! He was boarding a plane at DeGaulle's...
+delhi;- Przepraszam, widziała pani Felka?;- Pardon me miss, have you seen Felek?
+elbrus;Przepraszam, widzieli państwo Felka?;Excuse me, has anyone here seen Felek?
+kenya;Feluś, ale przybrałeś na wadze!^^... a nie, to nie on...;Felek, you've gained some weight!^^... oh, no, that's not him...
+morocco;Osiołki? Są.^Kozy? Są.^Chmary dzieci?^Są.^Góry Atlas? Są.^Ale Felusia tu też nie ma!;Donkeys? Check.^Goats? Check.^Swarms of children? Check.^Atlas mountains? Check.^But Felek's not here either!
+zanskar;- Przepływał tędy Felek?^- Nie wiem, nic nie słyszę, mam wodę w uszach.;- Was Felek swimming through here?^- I can't hear you, I have water in my ears.
+whats_that_noise;A co to za hałas?;What's that noise?
+ending;A Felek siedział w walizce^i cały czas jezdził z nami!;Meanwhile, Felek was in our suitcase,^travelling with us all along!
+the_end;Koniec;The end
+replay;Felek, gdzie ty^znowu lecisz?;Felek, stop,^where are you running?

@@ -245,7 +245,12 @@ PrefabInstance:
     - target: {fileID: 8047695807428909562, guid: ca8e58e1cced07641801234081c51d1b,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.0099983215
+      value: 0.009994507
+      objectReference: {fileID: 0}
+    - target: {fileID: 3945140736991971742, guid: ca8e58e1cced07641801234081c51d1b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.009994507
       objectReference: {fileID: 0}
     - target: {fileID: 6506159011828566400, guid: ca8e58e1cced07641801234081c51d1b,
         type: 3}
@@ -261,6 +266,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: "No, wiem, wsiada\u0142 gdzie\u015B do samolotu na DeGaulle'u..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334104185483787753, guid: ca8e58e1cced07641801234081c51d1b,
+        type: 3}
+      propertyPath: key
+      value: paris_question
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503360631178977684, guid: ca8e58e1cced07641801234081c51d1b,
+        type: 3}
+      propertyPath: key
+      value: paris_answer
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca8e58e1cced07641801234081c51d1b, type: 3}
@@ -543,6 +558,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: "Felek jest wykszta\u0142cony,\nale do d'Orsay nie poszed\u0142..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3806292100584522914, guid: 8ef7305463c10884e834ff46941e1232,
+        type: 3}
+      propertyPath: key
+      value: paris
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ef7305463c10884e834ff46941e1232, type: 3}

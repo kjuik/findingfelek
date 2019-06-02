@@ -399,6 +399,11 @@ PrefabInstance:
       propertyPath: m_Text
       value: Koniec
       objectReference: {fileID: 0}
+    - target: {fileID: 3806292100584522914, guid: 8ef7305463c10884e834ff46941e1232,
+        type: 3}
+      propertyPath: key
+      value: the_end
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ef7305463c10884e834ff46941e1232, type: 3}
 --- !u!224 &800300545 stripped
@@ -862,6 +867,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 9220689860250217140, guid: ab90e806a808d9a48a91a871a8925b98,
+        type: 3}
+      propertyPath: key
+      value: replay
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab90e806a808d9a48a91a871a8925b98, type: 3}
 --- !u!1 &130052831414575550 stripped
@@ -1041,6 +1051,11 @@ PrefabInstance:
       propertyPath: m_Text
       value: "A Felek siedzia\u0142 w walizce \ni ca\u0142y czas je\u017Adzi\u0142
         z nami!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3806292100584522914, guid: 8ef7305463c10884e834ff46941e1232,
+        type: 3}
+      propertyPath: key
+      value: ending
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ef7305463c10884e834ff46941e1232, type: 3}

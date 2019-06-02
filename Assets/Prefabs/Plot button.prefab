@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3945140736991971742}
   - component: {fileID: 3945140736991971740}
   - component: {fileID: 3945140736991971741}
+  - component: {fileID: 7503360631178977684}
   m_Layer: 5
   m_Name: ResponseText
   m_TagString: Untagged
@@ -79,6 +80,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "No, widzia\u0142em jak lecia\u0142 Studzienn\u0105 w d\xF3\u0142..."
+--- !u!114 &7503360631178977684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3945140736991971743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ae6ec25634a2ad469760745f2b30ba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: 
 --- !u!1 &5118998883363970154
 GameObject:
   m_ObjectHideFlags: 0
@@ -306,6 +320,7 @@ GameObject:
   - component: {fileID: 8047695807428909562}
   - component: {fileID: 7405745647604658536}
   - component: {fileID: 1790916701611376045}
+  - component: {fileID: 2334104185483787753}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -329,7 +344,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2.57, y: 0.01}
+  m_AnchoredPosition: {x: 2.5699997, y: 0.0099983215}
   m_SizeDelta: {x: -15.42, y: -21.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7405745647604658536
@@ -374,3 +389,16 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Jacek, widzia\u0142e\u015B Felusia?"
+--- !u!114 &2334104185483787753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5190151592666159762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ae6ec25634a2ad469760745f2b30ba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: 

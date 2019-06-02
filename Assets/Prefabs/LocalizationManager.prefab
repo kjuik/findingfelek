@@ -43,4 +43,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f13b5e0f4791d42b85481315743fcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DefaultLanguage: pl-pl
+  NewlineEscapeChar: 94
   translationsCsv: {fileID: 4900000, guid: 6dfbfa8c83e327a41b0d9de7441e37a8, type: 3}

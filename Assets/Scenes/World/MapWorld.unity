@@ -815,6 +815,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 9220689860250217140, guid: ab90e806a808d9a48a91a871a8925b98,
+        type: 3}
+      propertyPath: key
+      value: whats_that_noise
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5368856750049868661, guid: ab90e806a808d9a48a91a871a8925b98, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ab90e806a808d9a48a91a871a8925b98, type: 3}

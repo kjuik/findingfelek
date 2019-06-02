@@ -1220,6 +1220,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 4797331275588949005, guid: 8ef7305463c10884e834ff46941e1232,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3806292100584522914, guid: 8ef7305463c10884e834ff46941e1232,
         type: 3}
       propertyPath: key
