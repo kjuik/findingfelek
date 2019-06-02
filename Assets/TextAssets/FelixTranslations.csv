@@ -1,4 +1,15 @@
-code,pl-pl,en-en
-main_title,Feluś zwiał,Felek's gone
-main_subtitle,Gra na podstawie prawdziwych wydarzeń,Game inspired by true events
-game_start_button,szukaj go!,search!
+code;pl-pl;en-en
+main_title;Feluś zwiał;Felek's gone
+main_subtitle;Gra na podstawie prawdziwych wydarzeń;Game inspired by true events
+game_start_button;szukaj go!;search!
+search_on;szukaj dalej...;search on...
+bakery;- Widziała pani Felusia?^- Nie, właśnie dawno nie zaglądał...;- Excuse me miss, have you seen Felek?^- No, I was wondering myself, haven't seen him in a while...
+balcony_1;A może się ukrył na balkonie?;Perhaps he's hiding on the balcony?
+balcony_2;Też nie.^Tyko kuna.;Not here either.^Just a beech marten.
+duchess;U hrabiny nie siedzi.^Byłoby widać, że podusił krokusy.;He's not at the duchess' house.^He would have left a trail in the crocuses.
+lake;Tu tylko kaczki.^Jakby Felek tu był to by je pogonił.;Only ducks here.^Felek would hunt them if he were here.
+pojniki_1;Pojniki?;What's that, drinking from the wild ponds?
+pojniki_2;nie,^same dziki.;no,^it's only boars.
+at_annes;Wszyscy są, ale Felusia ani śladu...^Ale ten Jacek się wierci.;Everyone's here, but no sight of Felek...^What's gotten into Jacek? He can't sit calmly.
+at_annes_question;Jacek, widziałeś Felusia?;Jacek, have you seen Felek anywhere?
+at_annes_answer;No, widziałem jak leciał Studzienną w dół...;Yeah, I saw him running down Studzienna street...

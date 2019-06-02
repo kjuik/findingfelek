@@ -395,6 +395,11 @@ PrefabInstance:
       value: "Wszyscy s\u0105, ale Felusia ani \u015Bladu...\nAle ten Jacek si\u0119
         wierci."
       objectReference: {fileID: 0}
+    - target: {fileID: 3806292100584522914, guid: 8ef7305463c10884e834ff46941e1232,
+        type: 3}
+      propertyPath: key
+      value: at_annes
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ef7305463c10884e834ff46941e1232, type: 3}
 --- !u!224 &641914656 stripped
@@ -919,6 +924,44 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca8e58e1cced07641801234081c51d1b, type: 3}
+--- !u!1 &3945140737105924708 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3945140736991971743, guid: ca8e58e1cced07641801234081c51d1b,
+    type: 3}
+  m_PrefabInstance: {fileID: 3945140737105924707}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3945140737105924709 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5190151592666159762, guid: ca8e58e1cced07641801234081c51d1b,
+    type: 3}
+  m_PrefabInstance: {fileID: 3945140737105924707}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3945140737105924710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3945140737105924708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ae6ec25634a2ad469760745f2b30ba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: at_annes_answer
+--- !u!114 &3945140737105924711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3945140737105924709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ae6ec25634a2ad469760745f2b30ba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: at_annes_question
 --- !u!224 &4037721361208156079 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1060363199730060748, guid: ca8e58e1cced07641801234081c51d1b,

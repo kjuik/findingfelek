@@ -3,6 +3,9 @@ using UnityEngine;
 
 public class LocalizationManager : MonoBehaviour
 {
+    public string DefaultLanguage = "pl-pl";
+    public char NewlineEscapeChar = '^';
+
     public TextAsset translationsCsv;
 
     readonly Dictionary<string, Dictionary<string, string>> Translations = new Dictionary<string, Dictionary<string, string>>();
@@ -12,16 +15,16 @@ public class LocalizationManager : MonoBehaviour
     private void Awake()
     {
         PopulateTranslations(ParseCsv());
-        SetLanguage("pl-pl");
+        SetLanguage(DefaultLanguage);
     }
 
     private string[][] ParseCsv()
     {
-        var rows = translationsCsv.text.Split('\n');
+        var rows = translationsCsv.text.Replace("\r\n", "§").Split('§');
 
         string[][] cells = new string[rows.Length][];
         for (var i = 0; i < rows.Length; i++)
-            cells[i] = rows[i].Trim().Split(',');
+            cells[i] = rows[i].Replace(NewlineEscapeChar, '\n').Split(';');
 
         return cells;
     }

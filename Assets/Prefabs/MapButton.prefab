@@ -182,6 +182,7 @@ GameObject:
   - component: {fileID: 6417871550164675293}
   - component: {fileID: 5798818779849491023}
   - component: {fileID: 3343194681038720650}
+  - component: {fileID: 9220689860250217140}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -250,3 +251,16 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: szukaj
+--- !u!114 &9220689860250217140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9131307483701094837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ae6ec25634a2ad469760745f2b30ba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: search_on
