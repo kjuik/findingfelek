@@ -77,3 +77,5 @@ MonoBehaviour:
     type: 3}
   audioManagerPrefab: {fileID: 2826172543674612389, guid: ef09ea877448376418146327173b182a,
     type: 3}
+  localizationManagerPrefab: {fileID: 2303421794473537102, guid: a457e4a24d4febd43895ea4841a5fc97,
+    type: 3}
