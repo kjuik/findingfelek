@@ -6,20 +6,25 @@ using UnityEngine.UI;
 public class Fade : MonoBehaviour
 {
     private Image _curtain;
+    private Coroutine _currentFadeCoroutine;
 
     private void Awake() =>
         _curtain = GetComponentInChildren<Image>().OrThrow();
 
     public void In(Action onFinished = null)
     {
-        StopAllCoroutines();
-        StartCoroutine(Run(1f, 0f, onFinished: onFinished));
+        if (_currentFadeCoroutine != null)
+            StopCoroutine(_currentFadeCoroutine);
+        
+        _currentFadeCoroutine = StartCoroutine(Run(1f, 0f, onFinished: onFinished));
     }
 
     public void Out(Action onFinished = null)
     {
-        StopAllCoroutines();
-        StartCoroutine(Run(0f, 1f, onFinished: onFinished));
+        if (_currentFadeCoroutine != null)
+            StopCoroutine(_currentFadeCoroutine);
+        
+        _currentFadeCoroutine = StartCoroutine(Run(0f, 1f, onFinished: onFinished));
     }
 
     private IEnumerator Run(float from, float to, float duration = .25f, Action onFinished = null)
@@ -36,8 +41,7 @@ public class Fade : MonoBehaviour
 
             yield return null;
         }
-
+        
         onFinished?.Invoke();
-            
     }
 }
