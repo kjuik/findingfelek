@@ -1,15 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using Zenject;
 
 public class SwitchMusic : MonoBehaviour
 {
-    public AudioManager.Loop Music;
+    [SerializeField] private AudioManager.Loop music;
 
     [Inject]
     public AudioManager AudioManager { set; private get; }
 
     public void Switch() =>
-        AudioManager.ChangeLoop(Music);
+        AudioManager.ChangeLoop(music);
 }

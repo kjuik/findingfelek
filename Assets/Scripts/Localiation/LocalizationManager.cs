@@ -3,28 +3,29 @@ using UnityEngine;
 
 public class LocalizationManager : MonoBehaviour
 {
-    public string DefaultLanguage = "pl-pl";
-    public char NewlineEscapeChar = '^';
+    [SerializeField] private string defaultLanguage = "pl-pl";
+    [SerializeField] private char newlineEscapeChar = '^';
 
     public TextAsset translationsCsv;
 
-    readonly Dictionary<string, Dictionary<string, string>> Translations = new Dictionary<string, Dictionary<string, string>>();
+    private readonly Dictionary<string, Dictionary<string, string>> _translations 
+        = new Dictionary<string, Dictionary<string, string>>();
 
     public string CurrentLanguage { get; private set; }
 
     private void Awake()
     {
         PopulateTranslations(ParseCsv());
-        SetLanguage(DefaultLanguage);
+        SetLanguage(defaultLanguage);
     }
 
     private string[][] ParseCsv()
     {
         var rows = translationsCsv.text.Replace("\r\n", "§").Split('§');
 
-        string[][] cells = new string[rows.Length][];
+        var cells = new string[rows.Length][];
         for (var i = 0; i < rows.Length; i++)
-            cells[i] = rows[i].Replace(NewlineEscapeChar, '\n').Split(';');
+            cells[i] = rows[i].Replace(newlineEscapeChar, '\n').Split(';');
 
         return cells;
     }
@@ -38,7 +39,7 @@ public class LocalizationManager : MonoBehaviour
             for (var j=1; j<cells[i].Length; j++)
                 currentPhrase[cells[0][j]] = cells[i][j];
 
-            Translations[cells[i][0]] = currentPhrase;
+            _translations[cells[i][0]] = currentPhrase;
         }
     }
 
@@ -46,5 +47,5 @@ public class LocalizationManager : MonoBehaviour
         CurrentLanguage = language;
 
     public string GetTranslation(string key) => 
-        Translations[key][CurrentLanguage];
+        _translations[key][CurrentLanguage];
 }

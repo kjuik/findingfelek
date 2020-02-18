@@ -3,13 +3,13 @@ using Zenject;
 
 public class UnlockMilestone : MonoBehaviour
 {
-    public string Milestone;
+    [SerializeField] private string milestone;
 
     [Inject]
     public ExplorationState ExplorationState { set; private get; }
 
     public void Unlock()
     {
-        ExplorationState.OnMilestoneReached(Milestone);
+        ExplorationState.OnMilestoneReached(milestone);
     }
 }

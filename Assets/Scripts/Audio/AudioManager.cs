@@ -7,12 +7,16 @@ public class AudioManager : MonoBehaviour
 {
     public enum Sfx
     {
-        Click, Car, Train, Plane
+        Click,
+        Car, 
+        Train, 
+        Plane
     }
 
     public enum Loop
     {
-        GameMusic, EndMusic
+        GameMusic, 
+        EndMusic
     }
 
     [System.Serializable]
@@ -29,23 +33,23 @@ public class AudioManager : MonoBehaviour
         public AudioClip clip;
     }
 
-    public List<SfxAudio> sfxAudios;
-    public List<LoopAudio> loopAudios;
+    [SerializeField] private List<SfxAudio> sfxAudios;
+    [SerializeField] private List<LoopAudio> loopAudios;
 
-    public AudioMixerGroup sfxGroup;
-    public AudioMixerGroup loopGroup;
+    [SerializeField] private AudioMixerGroup sfxGroup;
+    [SerializeField] private AudioMixerGroup loopGroup;
 
-    public AudioSource audioSourcePrefab;
+    [SerializeField] private AudioSource audioSourcePrefab;
 
-    AudioSource currentLoop;
+    private AudioSource _currentLoop;
 
     private void Awake()
     {
-        currentLoop = Instantiate(audioSourcePrefab, transform);
-        currentLoop.loop = true;
-        currentLoop.clip = loopAudios.First().clip;
-        currentLoop.outputAudioMixerGroup = loopGroup;
-        currentLoop.Play();
+        _currentLoop = Instantiate(audioSourcePrefab, transform);
+        _currentLoop.loop = true;
+        _currentLoop.clip = loopAudios.First().clip;
+        _currentLoop.outputAudioMixerGroup = loopGroup;
+        _currentLoop.Play();
     }
 
     public void PlaySfx(Sfx sfx)
@@ -60,7 +64,7 @@ public class AudioManager : MonoBehaviour
 
     public void ChangeLoop(Loop loop)
     {
-        currentLoop.clip = loopAudios.First(x => x.key == loop).clip;
-        currentLoop.Play();
+        _currentLoop.clip = loopAudios.First(x => x.key == loop).clip;
+        _currentLoop.Play();
     }
 }

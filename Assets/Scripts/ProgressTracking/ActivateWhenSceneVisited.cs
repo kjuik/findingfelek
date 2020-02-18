@@ -5,7 +5,7 @@ using Zenject;
 
 public class ActivateWhenSceneVisited : MonoBehaviour
 {
-    public List<string> sceneNames;
+    [SerializeField] private List<string> sceneNames;
 
     [Inject]
     public ExplorationState ExplorationState { set; private get; }

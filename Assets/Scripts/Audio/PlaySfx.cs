@@ -3,11 +3,11 @@ using Zenject;
 
 public class PlaySfx : MonoBehaviour
 {
-    public AudioManager.Sfx Sfx;
+    [SerializeField] private AudioManager.Sfx sfx;
 
     [Inject]
     public AudioManager AudioManager { set; private get; }
 
     public void Play() =>
-        AudioManager.PlaySfx(Sfx);
+        AudioManager.PlaySfx(sfx);
 }

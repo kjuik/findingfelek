@@ -4,7 +4,7 @@ using Zenject;
 
 public class LocalizedText : MonoBehaviour
 {
-    public string key;
+    [SerializeField] private string key;
 
     [Inject]
     public LocalizationManager LocalizationManager { set; private get; }

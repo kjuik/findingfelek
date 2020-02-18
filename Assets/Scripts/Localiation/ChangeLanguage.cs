@@ -4,7 +4,7 @@ using Zenject;
 
 public class ChangeLanguage : MonoBehaviour
 {
-    public string language;
+    [SerializeField] private string language;
 
     [Inject]
     public LocalizationManager LocalizationManager { set; private get; }

@@ -4,8 +4,8 @@ using Zenject;
 
 public class SwitchSpriteWhenSceneVisited : MonoBehaviour
 {
-    public string sceneName;
-    public Sprite sprite;
+    [SerializeField] private string sceneName;
+    [SerializeField] private Sprite sprite;
 
     [Inject]
     public ExplorationState ExplorationState { set; private get; }

@@ -1,10 +1,11 @@
+using UnityEngine;
 using Zenject;
 
 public class ZenjectInstaller : MonoInstaller
 {
-    public Fade fadeInOutPrefab;
-    public AudioManager audioManagerPrefab;
-    public LocalizationManager localizationManagerPrefab;
+    [SerializeField] private Fade fadeInOutPrefab;
+    [SerializeField] private AudioManager audioManagerPrefab;
+    [SerializeField] private LocalizationManager localizationManagerPrefab;
 
     public override void InstallBindings()
     {

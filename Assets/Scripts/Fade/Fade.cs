@@ -5,10 +5,10 @@ using UnityEngine.UI;
 
 public class Fade : MonoBehaviour
 {
-    Image image;
+    private Image _curtain;
 
     private void Awake() =>
-        image = GetComponentInChildren<Image>().OrThrow();
+        _curtain = GetComponentInChildren<Image>().OrThrow();
 
     public void In(Action onFinished = null)
     {
@@ -27,10 +27,11 @@ public class Fade : MonoBehaviour
         var startTimestamp = Time.time;
         while (Time.time - startTimestamp < duration)
         {
-            image.color = new Color(
-                image.color.r,
-                image.color.g,
-                image.color.b,
+            var color = _curtain.color;
+            _curtain.color = new Color(
+                color.r,
+                color.g,
+                color.b,
                 Mathf.Lerp(from, to, (Time.time - startTimestamp) / duration));
 
             yield return null;

@@ -2,34 +2,34 @@
 
 public class ExplorationState
 {
-    ExplorationState() { }
+    private ExplorationState() { }
 
-    readonly HashSet<string> VisitedScenes = new HashSet<string>();
-    readonly HashSet<string> MilestonesReached = new HashSet<string>();
-    readonly HashSet<string> MilestonesAnimated = new HashSet<string>();
+    private readonly HashSet<string> _visitedScenes = new HashSet<string>();
+    private readonly HashSet<string> _milestonesReached = new HashSet<string>();
+    private readonly HashSet<string> _milestonesAnimated = new HashSet<string>();
 
     public void OnLoadScene(string scene) => 
-        VisitedScenes.Add(scene);
+        _visitedScenes.Add(scene);
 
     public void OnMilestoneReached(string milestone) =>
-       MilestonesReached.Add(milestone);
+       _milestonesReached.Add(milestone);
 
     public void OnMilestoneAnimated(string milestone) =>
-       MilestonesAnimated.Add(milestone);
+       _milestonesAnimated.Add(milestone);
 
     public void OnReset()
     {
-        VisitedScenes.Clear();
-        MilestonesReached.Clear();
-        MilestonesAnimated.Clear();
+        _visitedScenes.Clear();
+        _milestonesReached.Clear();
+        _milestonesAnimated.Clear();
     }
 
     public bool HasVisitedScene(string sceneName) => 
-        VisitedScenes.Contains(sceneName);
+        _visitedScenes.Contains(sceneName);
 
     public bool HasReachedMilestone(string milestone) =>
-        MilestonesReached.Contains(milestone);
+        _milestonesReached.Contains(milestone);
 
     public bool HasAnimatedMilestone(string milestone) =>
-        MilestonesAnimated.Contains(milestone);
+        _milestonesAnimated.Contains(milestone);
 }

@@ -4,7 +4,7 @@ using Zenject;
 
 public class LoadScene : MonoBehaviour
 {
-    public string SceneName;
+    [SerializeField] private string sceneName;
 
     [Inject]
     public Fade Fade { set; private get; }
@@ -16,8 +16,8 @@ public class LoadScene : MonoBehaviour
     {
         Fade.Out(() =>
         {
-            SceneManager.LoadScene(SceneName);
-            ExplorationState.OnLoadScene(SceneName);
+            SceneManager.LoadScene(sceneName);
+            ExplorationState.OnLoadScene(sceneName);
         });
 
     }

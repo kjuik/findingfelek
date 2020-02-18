@@ -3,7 +3,7 @@ using Zenject;
 
 public class ActivateWhenMilestoneReached : MonoBehaviour
 {
-    public string milestoneName;
+    [SerializeField] private string milestoneName;
 
     [Inject]
     public ExplorationState ExplorationState { set; private get; }
